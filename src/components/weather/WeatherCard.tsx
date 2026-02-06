@@ -20,7 +20,7 @@ const WeatherCard = () => {
                     <div className="windIcon">
                         <Wind />
                     </div>
-                    <div className="windInfo">
+                    <div className="humidityInfo">
                         <h1>11MPH</h1>
                         <p>Wind</p>
                     </div>
