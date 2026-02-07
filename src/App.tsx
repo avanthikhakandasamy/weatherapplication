@@ -1,12 +1,10 @@
 import './App.css'
-import WeatherCard from './components/weather/WeatherCard'
+import MainPage from './pages/MainPage'
 
 function App() {
 
   return (
-    <div className='App'>
-      <WeatherCard/>
-    </div>
+    <MainPage />
   )
 }
 
