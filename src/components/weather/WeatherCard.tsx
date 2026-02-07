@@ -2,7 +2,7 @@ import { Menu, Circle, Wind, Droplet } from 'lucide-react';
 
 const WeatherCard = () => {
     return (
-        <div className="WeatherCard">
+        <div className="WeatherCard border-4 p-12">
             <div className="locationStat">
                 Mumbai, India
                 <Menu />
@@ -20,7 +20,7 @@ const WeatherCard = () => {
                     <div className="windIcon">
                         <Wind />
                     </div>
-                    <div className="windInfo">
+                    <div className="humidityInfo">
                         <h1>11MPH</h1>
                         <p>Wind</p>
                     </div>
