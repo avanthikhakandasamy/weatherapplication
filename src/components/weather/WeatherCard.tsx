@@ -1,15 +1,16 @@
-import { Menu, Circle, Wind, Droplet } from 'lucide-react';
+import { Menu, Wind, Droplet, Sun, Cloud, CloudRain, MapPin } from 'lucide-react';
 
 const WeatherCard = () => {
     return (
-        <div className="WeatherCard border-4 p-12">
-            <div className="locationStat">
-                Mumbai, India
+        <div className="WeatherCard min-h-screen bg-linear-to-br from-gray-900 via-gray-800 to-gray-900 text-white p-8 relative overflow-hidden">
+            <div className="locationStat flex items-center justify-between mb-8">
+                <span className='text-lg'>Mumbai, India</span>
                 <Menu />
             </div>
-            <div className="weatherDetails">
+
+            <div className="weatherDetails flex flex-col lg:flex-row items-center justify-center gap-12 mb-12 mt-16">
                 <div className='icon'>
-                    <Circle />
+                    <Sun />
                 </div>
                 <h2>Sunny</h2>
                 <h1>22C</h1>
